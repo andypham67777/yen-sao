@@ -19,20 +19,27 @@
 </head>
 
 <body>
-<div class="w-full flex justify-center p-[10px] md:px-[60px] bg-[#eff0ec]">
-    <img src="public/image/img-2.png" class="w-[120px]">
+<div class="max-w-[100vw] flex relative my-[15px] mx-auto overflow-x-auto justify-center p-[10px] md:px-[60px] bg-[#357974]">
+    <div class="inline-flex gap-[7px]">
+        <img src="public/image/hinh-2.jpg" alt="yến tổ Cúc Hà" class="w-[200px] cursor-pointer" onclick="openImageModal(this.src)">
+        <img src="public/image/hinh-3.png" alt="Cúc Hà giấy chứng nhận OCOP" class="w-[120px] cursor-pointer" onclick="openImageModal(this.src)">
+        <img src="public/image/hinh-4.png" alt="Cúc Hà giấy chứng nhận an toàn thực phẩm" class="w-[120px] cursor-pointer" onclick="openImageModal(this.src)">
+        <img src="public/image/hinh-1.jpg" alt="trao thưởng yến sào cúc hà" class="w-[200px] cursor-pointer" onclick="openImageModal(this.src)">
+        <img src="public/image/img-2.png" alt="yến sào Cúc Hà" class="w-[200px] cursor-pointer" onclick="openImageModal(this.src)">
+    </div>
+
 </div>
 <div class="w-[98%] mt-[20px] flex flex-col border-2 border-[#8a8780] rounded-[5px] mx-auto text-center">
     <div class="w-full text-center">
         <div class="bg-[#e68736] h-[80px] rounded-t-[3px] m-0 flex items-center justify-center leading-[25px]">
             <img src="public/image/img.png" class="w-[70px]">
-            <div class="text-white text-[30px] font-medium mx-[0.25rem] my-0">Cơ Sở Yến Sào và Nông Sản Sạch Cúc Hà</div>
+            <div class="text-white text-[30px] font-medium mx-[0.25rem] my-0">Yến Sào Cúc Hà</div>
         </div>
     </div>
     <div class="w-full flex flex-col text-center">
         <div class="text-left">
             <div class="flex flex-col border border-[#8a8780] w-[95%] my-[10px] mx-auto rounded-[5px]">
-                <div class="text-white bg-[#357974] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative hover:bg-[#245c4f] transition-colors duration-300" onclick="toggleContent(this)">
+                <div class="text-white bg-[#d32f2f] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative " onclick="toggleContent(this)">
                     <div>Thông tin sản phẩm</div>
                     <div class="absolute top-1/2 right-[1vw] translate-y-[-50%] w-[30px] h-[26px] cursor-pointer transition-transform duration-300" >
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon-svg">
@@ -53,7 +60,7 @@
                 </div>
             </div>
             <div class="flex flex-col border border-[#8a8780] w-[95%] my-[10px] mx-auto rounded-[5px]">
-                <div class="text-white bg-[#357974] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative hover:bg-[#245c4f] transition-colors duration-300" onclick="toggleContent(this)">
+                <div class="text-white bg-[#357974] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative " onclick="toggleContent(this)">
                     <div>Thông tin đơn vị</div>
                     <div class="absolute top-1/2 right-[1vw] translate-y-[-50%] w-[30px] h-[26px] cursor-pointer transition-transform duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon-svg">
@@ -87,7 +94,7 @@
                 </div>
             </div>
             <div class="flex flex-col border border-[#8a8780] w-[95%] my-[10px] mx-auto rounded-[5px]">
-                <div class="text-white bg-[#357974] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative hover:bg-[#245c4f] transition-colors duration-300" onclick="toggleContent(this)">
+                <div class="text-white bg-[#ffc107] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative" onclick="toggleContent(this)">
                     <div>Tầm nhìn</div>
                     <div class="absolute top-1/2 right-[1vw] translate-y-[-50%] w-[30px] h-[26px] cursor-pointer transition-transform duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon-svg">
@@ -99,12 +106,12 @@
                 <div class=" content">
                     <div class="flex">
                         <div class="float-left w-[40%] md:w-[30%] p-[10px]">Tầm nhìn:</div>
-                        <div class="float-left w-1/2 p-[10px]">Mục tiêu Trở thành thương hiệu Yến sào hàng đầu khu vực nâng cao vị thế ngành Yến Việt Nam. Đề cao tinh thần trách nhiệm đối với cộng đồng, cam kết mang đến nguồn dinh dưỡng quý giá nhất.</div>
+                        <div class="float-left w-1/2 p-[10px]">Mục tiêu Trở thành thương hiệu Yến sào hàng đầu khu vực nâng cao vị thế ngành Yến Việt Nam.</div>
                     </div>
                 </div>
             </div>
             <div class="flex flex-col border border-[#8a8780] w-[95%] my-[10px] mx-auto rounded-[5px]">
-                <div class="text-white bg-[#357974] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative hover:bg-[#245c4f] transition-colors duration-300" onclick="toggleContent(this)">
+                <div class="text-white bg-[#9c27b0] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative" onclick="toggleContent(this)">
                     <div>Sứ mệnh</div>
                     <div class="absolute top-1/2 right-[1vw] translate-y-[-50%] w-[30px] h-[26px] cursor-pointer transition-transform duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon-svg">
@@ -121,7 +128,7 @@
                 </div>
             </div>
             <div class="flex flex-col border border-[#8a8780] w-[95%] my-[10px] mx-auto rounded-[5px]">
-                <div class="text-white bg-[#357974] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative hover:bg-[#245c4f] transition-colors duration-300" onclick="toggleContent(this)">
+                <div class="text-white bg-[#d32f2f] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative" onclick="toggleContent(this)">
                     <div>Thành phần</div>
                     <div class="absolute top-1/2 right-[1vw] translate-y-[-50%] w-[30px] h-[26px] cursor-pointer transition-transform duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon-svg">
@@ -138,7 +145,7 @@
                 </div>
             </div>
             <div class="flex flex-col border border-[#8a8780] w-[95%] my-[10px] mx-auto rounded-[5px]">
-                <div class="text-white bg-[#357974] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative hover:bg-[#245c4f] transition-colors duration-300" onclick="toggleContent(this)">
+                <div class="text-white bg-[#388e3c] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative" onclick="toggleContent(this)">
                     <div>Cách dùng</div>
                     <div class="absolute top-1/2 right-[1vw] translate-y-[-50%] w-[30px] h-[26px] cursor-pointer transition-transform duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon-svg">
@@ -156,7 +163,7 @@
                 </div>
             </div>
             <div class="flex flex-col border border-[#8a8780] w-[95%] my-[10px] mx-auto rounded-[5px]">
-                <div class="text-white bg-[#357974] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative hover:bg-[#245c4f] transition-colors duration-300" onclick="toggleContent(this)">
+                <div class="text-white bg-[#9c27b0] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative " onclick="toggleContent(this)">
                     <div>Cách bảo quản</div>
                     <div class="absolute top-1/2 right-[1vw] translate-y-[-50%] w-[30px] h-[26px] cursor-pointer transition-transform duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon-svg">
@@ -173,7 +180,7 @@
                 </div>
             </div>
             <div class="flex flex-col border border-[#8a8780] w-[95%] my-[10px] mx-auto rounded-[5px]">
-                <div class="text-white bg-[#357974] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative hover:bg-[#245c4f] transition-colors duration-300" onclick="toggleContent(this)">
+                <div class="text-white bg-[#357974] rounded-t-[3px] text-center py-[5px] font-bold cursor-pointer relative " onclick="toggleContent(this)">
                     <div>Hạn sử dụng</div>
                     <div class="absolute top-1/2 right-[1vw] translate-y-[-50%] w-[30px] h-[26px] cursor-pointer transition-transform duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 icon-svg">
@@ -191,18 +198,16 @@
             </div>
         </div>
 
-        <div class="relative block my-[15px] mx-auto w-[95%] h-[215px] overflow-x-auto border-2 border-[#8a8780] bg-white">
-            <div class="flex gap-[7px] my-[7px] ml-[7px]   ">
-                <img src="public/image/hinh-1.jpg" alt="trao thưởng" class="w-[200px] h-[190px] cursor-pointer" onclick="openImageModal(this.src)">
-                <img src="public/image/hinh-2.jpg" alt="yến tổ" class="w-[200px] h-[190px] cursor-pointer" onclick="openImageModal(this.src)">
-                <img src="public/image/hinh-3.png" alt="giấy chứng nhận OCOP" class="w-[200px] h-[190px] cursor-pointer" onclick="openImageModal(this.src)">
-                <img src="public/image/hinh-4.png" alt="giấy chứng nhận an toàn thực phẩm" class="w-[200px] h-[190px] cursor-pointer" onclick="openImageModal(this.src)">
-                <img src="public/image/hinh-10.jpg" alt="sấy khô yến " class="w-[200px] h-[190px] cursor-pointer" onclick="openImageModal(this.src)">
-                <img src="public/image/hinh-6.jpg" alt="hình yến vàng" class="w-[200px] h-[190px] cursor-pointer" onclick="openImageModal(this.src)">
-                <img src="public/image/hinh-7.jpg" alt="yến chưa làm sạch" class="w-[200px] h-[190px] cursor-pointer" onclick="openImageModal(this.src)">
-                <img src="public/image/hinh-8.jpg" alt="yến nắp đỏ" class="w-[200px] h-[190px] cursor-pointer" onclick="openImageModal(this.src)">
-                <img src="public/image/hinh-9.jpg" alt="yến đã làm sạch" class="w-[200px] h-[190px] cursor-pointer" onclick="openImageModal(this.src)">
-                <img src="public/image/hinh-5.jpg" alt="hình yến làm tổ" class="w-[200px] h-[190px] cursor-pointer" onclick="openImageModal(this.src)">
+        <div class="relative my-[15px] mx-auto w-[95%] h-[400px] overflow-x-auto border-2 border-[#8a8780] bg-[#e68736]">
+            <div class="flex gap-[7px] my-[7px] ml-[7px]">
+                <img src="public/image/hinh-3.png" alt="Cúc Hà giấy chứng nhận OCOP" class="w-[200px]  cursor-pointer" onclick="openImageModal(this.src)">
+                <img src="public/image/hinh-4.png" alt="Cúc Hà giấy chứng nhận an toàn thực phẩm" class="w-[200px] cursor-pointer" onclick="openImageModal(this.src)">
+                <img src="public/image/hinh-10.jpg" alt="sấy khô yến " class="w-[200px]  cursor-pointer" onclick="openImageModal(this.src)">
+                <img src="public/image/hinh-6.jpg" alt="hình yến vàng" class="w-[200px]  cursor-pointer" onclick="openImageModal(this.src)">
+                <img src="public/image/hinh-7.jpg" alt="yến chưa làm sạch" class="w-[200px] cursor-pointer" onclick="openImageModal(this.src)">
+                <img src="public/image/hinh-8.jpg" alt="yến nắp đỏ" class="w-[200px]  cursor-pointer" onclick="openImageModal(this.src)">
+                <img src="public/image/hinh-9.jpg" alt="yến đã làm sạch" class="w-[200px]  cursor-pointer" onclick="openImageModal(this.src)">
+                <img src="public/image/hinh-5.jpg" alt="hình yến làm tổ" class="w-[200px] cursor-pointer" onclick="openImageModal(this.src)">
             </div>
         </div>
 
@@ -215,18 +220,7 @@
 </div>
 
 <div class="mt-[40px] m-[10px]">
-    <div class="p-2">
-        <div class="bg-white p-[5px] pl-[10px] text-center leading-[30px] float-left opacity-15 grayscale">
-            <div class="bg-white p-[10px] inline-block rounded-full">
-                <img src="public/image/car.png" alt="" class="w-[30px] h-[30px]">
-            </div>
-            <div class="bg-white p-[10px] inline-block rounded-full">
-                <img src="public/image/walk.png" alt="" class="w-[30px] h-[30px]">
-            </div>
-            <div class="bg-white p-[10px] inline-block rounded-full">
-                <img src="public/image/bus.png" alt="" class="w-[30px] h-[30px]">
-            </div>
-        </div>
+    <div class="p-4">
         <div class="cursor-pointer inline-block pt-[20px] px-[10px]">
             <button onclick="openGoogleMap()" class="no-underline text-white bg-[#e68736] p-[5px] rounded-[5px]">
                 Xem trên Google Map
@@ -244,14 +238,11 @@
     </div>
 </div>
 
-<div class="footer md:flex bg-[#95ccb4] w-full md:text-left text-center font-bold text-[16px] leading-none font-sans px-[50px] py-[55px] mt-[80px]">
+<div class="footer md:flex bg-[#357974] w-full md:text-left text-center font-bold text-[16px] leading-none font-sans px-[50px] py-[55px] mt-[80px]">
   <div class="footer-left md:w-[40%] mb-[40px]">
       <div class="w-full flex md:justify-start justify-center">
-          <img src="public/image/img.png" alt="" class="w-[100px]">
+          <img src="public/image/img.png" alt="" class="w-[200px]">
       </div>
-      <p class="text-white my-[20px] mt-[20px] mb-[12px] p-0">
-          <a href="#">Yến Sào Cúc Hà, </a>DT sản xuất 600m2
-      </p>
   </div>
     <div class="footer-center md:w-[35%] mb-[40px] flex flex-col text-white">
         <div class="py-4">
